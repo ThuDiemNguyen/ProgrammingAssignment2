@@ -36,11 +36,5 @@ cacheSolve <- function(x, ...) { ## input argument is result from makeCaheMatrix
   m
 }
 
-a <- makeCacheMatrix(matrix(1:4, nrow=2, ncol=2))
 
-b <- makeCacheMatrix(matrix(5:8, nrow=2, ncol=2))
-
-
-cacheSolve(a)
-cacheSolve(b)
 
